@@ -1,0 +1,54 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Jun 1, 2018, 8:59:23 AM
+    Author     : tomas
+*/
+
+#mainTitle {
+    -fx-font-family: Tahoma;
+    -fx-font-size: 18pt;
+    -fx-font-weight: bold;
+}
+
+.heading {
+    -fx-font-family: Tahoma;
+    -fx-font-size: 14pt;
+    -fx-font-weight: bold;
+    -fx-text-fill: midnightblue;
+}
+
+.subHeading {
+    -fx-padding: 5px;
+    -fx-font-family: Tahoma;
+    -fx-font-size: 11pt;
+    -fx-text-fill: midnightblue;
+}
+
+.mainBox {
+    -fx-border-size: 4px;
+    -fx-border-color: #cccccc;
+    -fx-border-radius: 5px;
+    -fx-margin: 15px;
+}
+
+.tableview {
+    -fx-size: 25%;
+}
+
+#exitButton {
+    -fx-padding: 10px 25px 10px 25px;
+}
+
+
+/* Add Part, Add Product modals */
+#partMax, #partMin, #productMax, #productMin {
+    -fx-max-width: 50;
+}
+
+.wideButton, .wideButtonBox > .button {
+    -fx-padding: 5px 20px 5px 20px;
+}

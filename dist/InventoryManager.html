@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <META http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <SCRIPT src="https://java.com/js/dtjava.js"></SCRIPT><script>
+    function launchApplication(jnlpfile) {
+        dtjava.launch(            {
+                url : 'InventoryManager.jnlp',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IkludmVudG9yeU1hbmFnZXIuam5scCI+DQogICAgPGluZm9ybWF0aW9uPg0KICAgICAgICA8dGl0bGU+SW52ZW50b3J5TWFuYWdlcjwvdGl0bGU+DQogICAgICAgIDx2ZW5kb3I+dG9tYXM8L3ZlbmRvcj4NCiAgICAgICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgICAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgICA8L2luZm9ybWF0aW9uPg0KICAgIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KICAgIDxyZXNvdXJjZXM+DQogICAgICAgIDxqMnNlIHZlcnNpb249IjEwLjAuMisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICAgICAgPGphciBocmVmPSJJbnZlbnRvcnlNYW5hZ2VyLmphciIgc2l6ZT0iMjg0MjQiIGRvd25sb2FkPSJlYWdlciIvPg0KICAgIDwvcmVzb3VyY2VzPg0KICAgIDxqZng6amF2YWZ4LWRlc2Mgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImludmVudG9yeW1hbmFnZXIuSW52ZW50b3J5TWFuYWdlciIgbmFtZT0iSW52ZW50b3J5TWFuYWdlciIvPg0KPC9qbmxwPg0KDQo='
+            },
+            {
+                javafx : '10.0.2+'
+            },
+            {}
+        );
+        return false;
+    }
+</script><script>
+    function javafxEmbedinventorymanager() {
+        dtjava.embed(
+            {
+                id : 'inventorymanager',
+                url : 'InventoryManager.jnlp',
+                placeholder : 'javafx-app-placeholder',
+                width : '800',
+                height : '600',
+                jnlp_content : 'PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0iVVRGLTgiPz48am5scCBzcGVjPSIxLjAiIHhtbG5zOmpmeD0iaHR0cDovL2phdmFmeC5jb20iIGhyZWY9IkludmVudG9yeU1hbmFnZXIuam5scCI+DQogICAgPGluZm9ybWF0aW9uPg0KICAgICAgICA8dGl0bGU+SW52ZW50b3J5TWFuYWdlcjwvdGl0bGU+DQogICAgICAgIDx2ZW5kb3I+dG9tYXM8L3ZlbmRvcj4NCiAgICAgICAgPGRlc2NyaXB0aW9uPm51bGw8L2Rlc2NyaXB0aW9uPg0KICAgICAgICA8b2ZmbGluZS1hbGxvd2VkLz4NCiAgICA8L2luZm9ybWF0aW9uPg0KICAgIDx1cGRhdGUgY2hlY2s9ImFsd2F5cyIvPg0KICAgIDxyZXNvdXJjZXM+DQogICAgICAgIDxqMnNlIHZlcnNpb249IjEwLjAuMisiIGhyZWY9Imh0dHA6Ly9qYXZhLnN1bi5jb20vcHJvZHVjdHMvYXV0b2RsL2oyc2UiLz4NCiAgICAgICAgPGphciBocmVmPSJJbnZlbnRvcnlNYW5hZ2VyLmphciIgc2l6ZT0iMjg0MjQiIGRvd25sb2FkPSJlYWdlciIvPg0KICAgIDwvcmVzb3VyY2VzPg0KICAgIDxqZng6amF2YWZ4LWRlc2Mgd2lkdGg9IjgwMCIgaGVpZ2h0PSI2MDAiIG1haW4tY2xhc3M9ImludmVudG9yeW1hbmFnZXIuSW52ZW50b3J5TWFuYWdlciIgbmFtZT0iSW52ZW50b3J5TWFuYWdlciIvPg0KPC9qbmxwPg0KDQo='
+            },
+            {
+                javafx : '10.0.2+'
+            },
+            {}
+        );
+    }
+    
+            <!-- Embed FX application into web page once page is loaded -->
+    dtjava.addOnloadCallback(javafxEmbedinventorymanager);
+</script>
+    </head>
+    <body>
+        <h2>
+            Test page for <b>InventoryManager</b>
+        </h2>
+        <b>Webstart:</b><a href="InventoryManager.jnlp" onclick="return launchApplication('InventoryManager.jnlp');">click to launch this app as webstart</a>
+        <br>
+        <hr>
+        <br>
+        
+        <!-- Applet will be inserted here -->
+        <div id="javafx-app-placeholder"></div>
+    </body>
+</html>
